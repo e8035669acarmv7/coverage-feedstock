@@ -12,7 +12,7 @@ source:
   md5: {{ md5 }}
 
 build:
-  number: 0
+  number: 1
   entry_points:
     - coverage = coverage.cmdline:main
 
@@ -33,7 +33,6 @@ test:
 
 about:
   home: https://coverage.readthedocs.io
-  # Version unknown. Switches to Apache in 4.0.0.
   license: Apache 2.0
   summary: 'Code coverage measurement for Python'
 
