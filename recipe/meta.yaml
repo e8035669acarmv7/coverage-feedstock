@@ -1,5 +1,5 @@
-{% set version = "4.0" %}
-{% set md5 = "13e119b1f111c22b613c3d5cd19a95ac" %}
+{% set version = "4.0.1" %}
+{% set md5 = "30d696bf909b8e13f991f8feac9c4a5e" %}
 {% set pkgname = "coverage" %}
 
 package:
@@ -33,7 +33,6 @@ test:
 
 about:
   home: https://coverage.readthedocs.io
-  # Version unknown. Switches to Apache in 4.0.0.
   license: Apache 2.0
   summary: 'Code coverage measurement for Python'
 
