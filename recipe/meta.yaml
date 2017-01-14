@@ -1,5 +1,5 @@
-{% set version = "4.2" %}
-{% set md5 = "1e09362a3f35d589f942359441050a6e" %}
+{% set version = "4.3.1" %}
+{% set hash = "fcc5838147c7b98871f32404ea9d60efc686ccca9adad3024291cb08c0b433cf" %}
 {% set pkgname = "coverage" %}
 
 package:
@@ -9,7 +9,7 @@ package:
 source:
   fn: {{ pkgname }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ pkgname[0] }}/{{ pkgname }}/{{ pkgname }}-{{ version }}.tar.gz
-  md5: {{ md5 }}
+  sha256: {{ hash }}
 
 build:
   number: 0
@@ -40,3 +40,4 @@ extra:
   recipe-maintainers:
     - ericmjl
     - jakirkham
+    - ocefpaf
