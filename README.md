@@ -14,9 +14,7 @@ Summary: Code coverage measurement for Python
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/coverage-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/coverage-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/coverage-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/coverage-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/coverage-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/coverage-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/coverage-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/coverage-feedstock)
 
 Current release info
 ====================
