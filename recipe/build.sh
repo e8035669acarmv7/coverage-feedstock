@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-$PYTHON setup.py install --single-version-externally-managed --record record.txt
+$PYTHON -m pip install --no-deps --ignore-installed .
 
 # Remove versioned entrypoints.
 PY_VER_MAJ=$($PYTHON -c "import os; print('_'.join(os.environ['PY_VER'].split('.')[0]))")

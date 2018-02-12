@@ -1,4 +1,4 @@
-%PYTHON% setup.py install --single-version-externally-managed --record record.txt
+%PYTHON% -m pip install --no-deps --ignore-installed .
 
 :: Remove versioned entrypoints.
 %PYTHON% -c "import os; print('_'.join(os.environ['PY_VER'].split('.')[0]))" > temp.txt
