@@ -11,13 +11,14 @@ source:
   sha256: {{ hash }}
 
 build:
-  number: 0
+  number: 1
   entry_points:
     - coverage = coverage.cmdline:main
 
 requirements:
   build:
-    - toolchain
+    - {{ compiler('c') }}
+  host:
     - python
     - pip
   run:
