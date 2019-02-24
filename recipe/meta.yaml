@@ -12,7 +12,6 @@ build:
   number: 1001
   entry_points:
     - coverage = coverage.cmdline:main
-  noarch: python
 
 requirements:
   build:
