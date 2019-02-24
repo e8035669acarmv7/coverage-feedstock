@@ -1,3 +1,7 @@
+<!--
+# -*- mode: jinja -*-
+-->
+
 About coverage
 ==============
 
@@ -14,9 +18,8 @@ Summary: Code coverage measurement for Python
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/coverage-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/coverage-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/coverage-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/coverage-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/coverage-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/coverage-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/coverage-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/coverage-feedstock)
 
 Current release info
 ====================
@@ -49,6 +52,8 @@ conda search coverage --channel conda-forge
 
 About conda-forge
 =================
+
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
 
 conda-forge is a community-led conda channel of installable packages.
 In order to provide high-quality builds, the process has been automated into the
@@ -104,3 +109,11 @@ In order to produce a uniquely identifiable distribution:
  * If the version of a package **is** being increased, please remember to return
    the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
    back to 0.
+
+Feedstock Maintainers
+=====================
+
+* [@ericmjl](https://github.com/ericmjl/)
+* [@jakirkham](https://github.com/jakirkham/)
+* [@ocefpaf](https://github.com/ocefpaf/)
+
