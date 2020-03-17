@@ -1,4 +1,4 @@
-{% set version = "5.0.3" %}
+{% set version = "5.0.4" %}
 
 package:
   name: coverage
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/c/coverage/coverage-{{ version }}.tar.gz
-  sha256: 77afca04240c40450c331fa796b3eab6f1e15c5ecf8bf2b8bee9706cd5452fef
+  sha256: 1b60a95fc995649464e0cd48cecc8288bac5f4198f21d04b8229dc4097d76823
 
 build:
-  number: 1
+  number: 0
   entry_points:
     - coverage = coverage.cmdline:main
 
@@ -33,7 +33,7 @@ about:
   home: https://coverage.readthedocs.io
   license: Apache 2.0
   license_file: LICENSE.txt
-  summary: 'Code coverage measurement for Python'
+  summary: Code coverage measurement for Python
 
 extra:
   recipe-maintainers:
