@@ -3,7 +3,7 @@ About coverage
 
 Home: https://coverage.readthedocs.io
 
-Package license: Apache 2.0
+Package license: Apache-2.0
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/coverage-feedstock/blob/master/LICENSE.txt)
 
