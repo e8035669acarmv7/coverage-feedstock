@@ -9,7 +9,7 @@ source:
   sha256: 38f16b1317b8dd82df67ed5daa5f5e7c959e46579840d77a67a4ceb9cef0a50b
 
 build:
-  number: 0
+  number: 1
   entry_points:
     - coverage = coverage.cmdline:main
 
