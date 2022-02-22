@@ -10,6 +10,7 @@ source:
 
 build:
   number: 0
+  skip: true  # [py<37]
   entry_points:
     - coverage = coverage.cmdline:main
 
@@ -23,13 +24,14 @@ requirements:
     - pip
   run:
     - python
-    - tomli
 
 test:
+  requires:
+    - pip
   imports:
     - coverage
-
   commands:
+    - pip check
     - coverage --help
 
 about:
