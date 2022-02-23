@@ -9,7 +9,7 @@ source:
   sha256: 03e2a7826086b91ef345ff18742ee9fc47a6839ccd517061ef8fa1976e652ce9
 
 build:
-  number: 0
+  number: 1
   skip: true  # [py<37]
   entry_points:
     - coverage = coverage.cmdline:main
@@ -24,6 +24,8 @@ requirements:
     - pip
   run:
     - python
+    # extra dependency
+    - tomli  
 
 test:
   requires:
