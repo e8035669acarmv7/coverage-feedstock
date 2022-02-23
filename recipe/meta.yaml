@@ -24,7 +24,8 @@ requirements:
     - pip
   run:
     - python
-    - tomli
+    # extra dependency
+    - tomli  
 
 test:
   requires:
