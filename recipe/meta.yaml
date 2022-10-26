@@ -9,7 +9,7 @@ source:
   sha256: f642e90754ee3e06b0e7e51bce3379590e76b7f76b708e1a71ff043f87025c84
 
 build:
-  number: 0
+  number: 1
   skip: true  # [py<37]
   entry_points:
     - coverage = coverage.cmdline:main
