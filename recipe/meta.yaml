@@ -1,4 +1,4 @@
-{% set version = "7.4.4" %}
+{% set version = "7.5.0" %}
 
 package:
   name: coverage
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/c/coverage/coverage-{{ version }}.tar.gz
-  sha256: c901df83d097649e257e803be22592aedfd5182f07b3cc87d640bbb9afd50f49
+  sha256: cf62d17310f34084c59c01e027259076479128d11e4661bb6c9acb38c5e19bb8
 
 build:
   number: 0
@@ -19,6 +19,7 @@ requirements:
     - python                                 # [build_platform != target_platform]
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
   host:
     - python
     - pip
